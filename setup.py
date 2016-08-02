@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 __author__ = 'Tra NGUYEN THANH <thanh-tra.nguyen@esrf.fr>'
-__version__ = '1.0'
+__version__ = '1.17'
 __adv__ = 'setup.py'
 
 from distutils.core import setup
 
 # Package name
-name = 'MCA_GUI'
+name = 'RSM_Viewer'
 
 # Packages (subdirectories in lib/)
 packages = ['']
@@ -17,7 +17,7 @@ packages = ['']
 modules = ['mca_spec', 'Bruker']
 
 # Scripts (in scripts/)
-scripts = ['McaGUI.py']
+scripts = ['RSMviewer.py']
 
 cmdclass = {}
 command_options = {}

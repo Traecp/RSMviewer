@@ -25,7 +25,7 @@ from matplotlib.ticker import MaxNLocator
 import xrayutilities as xu
 from lmfit import Parameters, minimize
 import h5py as h5
-from MCA_GUI import mca_spec as SP
+from RSM_Viewer import mca_spec as SP
 
 __version__ = "1.1.7"
 __date__ = "05/11/2014"
